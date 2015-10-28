@@ -1,12 +1,25 @@
-﻿Build started 20-Oct-15 21:30:27.
-     1>Project "C:\src\EasyUI\EasyUi\Injection\ManagedInjector\ManagedInjector.vcxproj" on node 2 (Build target(s)).
+﻿Build started 28-Oct-15 13:58:29.
+     1>Project "C:\src\EasyUI\EasyUi\Injection\ManagedInjector\ManagedInjector.vcxproj" on node 3 (Rebuild target(s)).
      1>ClCompile:
-         CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"C:\src\EasyUI\EasyUi\\Intermediate\x86\ManagedInjector\Debug\ManagedInjector.pch" /Fo"C:\src\EasyUI\EasyUi\\Intermediate\x86\ManagedInjector\Debug\\" /Fd"C:\src\EasyUI\EasyUi\\Intermediate\x86\ManagedInjector\Debug\vc140.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Stdafx.cpp
-     1>TRACKER : error TRK0005: Failed to locate: "CL.exe". The system cannot find the file specified.
-         
-         
-     1>Done Building Project "C:\src\EasyUI\EasyUi\Injection\ManagedInjector\ManagedInjector.vcxproj" (Build target(s)) -- FAILED.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"C:\src\EasyUI\EasyUi\\Intermediate\x86\ManagedInjector\Debug\ManagedInjector.pch" /Fo"C:\src\EasyUI\EasyUi\\Intermediate\x86\ManagedInjector\Debug\\" /Fd"C:\src\EasyUI\EasyUi\\Intermediate\x86\ManagedInjector\Debug\vc140.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\src\EasyUI\EasyUi\\Intermediate\x86\ManagedInjector\Debug\\" /Fd"C:\src\EasyUI\EasyUi\\Intermediate\x86\ManagedInjector\Debug\vc140.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib AssemblyInfo.cpp Injector.cpp
+         AssemblyInfo.cpp
+     1>AssemblyInfo.cpp(45): warning C4947: 'RequestMinimum': marked as obsolete
+         AssemblyInfo.cpp(45): note: Message: 'Assembly level declarative security is obsolete and is no longer enforced by the CLR by default. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.'
+         Injector.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fp"C:\src\EasyUI\EasyUi\\Intermediate\x86\ManagedInjector\Debug\ManagedInjector.pch" /Fa"C:\src\EasyUI\EasyUi\\Intermediate\x86\ManagedInjector\Debug\\" /Fo"C:\src\EasyUI\EasyUi\\Intermediate\x86\ManagedInjector\Debug\\" /Fd"C:\src\EasyUI\EasyUi\\Intermediate\x86\ManagedInjector\Debug\vc140.pdb" /analyze- /errorReport:prompt "C:\Users\Chris Powell\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\src\EasyUI\EasyUi\Build\x86\Debug\ManagedInjector.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"makefile.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\src\EasyUI\EasyUi\Build\x86\Debug\ManagedInjector.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE:NO /FIXED:NO /MACHINE:X86 /SAFESEH /DLL C:\src\EasyUI\EasyUi\\Intermediate\x86\ManagedInjector\Debug\AssemblyInfo.obj
+         C:\src\EasyUI\EasyUi\\Intermediate\x86\ManagedInjector\Debug\Injector.obj
+         C:\src\EasyUI\EasyUi\\Intermediate\x86\ManagedInjector\Debug\Stdafx.obj
+         "C:\src\EasyUI\EasyUi\\Intermediate\x86\ManagedInjector\Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+            Creating library C:\src\EasyUI\EasyUi\Build\x86\Debug\ManagedInjector.lib and object C:\src\EasyUI\EasyUi\Build\x86\Debug\ManagedInjector.exp
+         ManagedInjector.vcxproj -> C:\src\EasyUI\EasyUi\Build\x86\Debug\ManagedInjector.dll
+     1>Done Building Project "C:\src\EasyUI\EasyUi\Injection\ManagedInjector\ManagedInjector.vcxproj" (Rebuild target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:01.67
+Time Elapsed 00:00:11.30

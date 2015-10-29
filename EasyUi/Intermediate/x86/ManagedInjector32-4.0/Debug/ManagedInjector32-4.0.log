@@ -1,5 +1,5 @@
-﻿Build started 28-Oct-15 13:58:29.
-     1>Project "C:\src\EasyUI\EasyUi\Injection\ManagedInjector\ManagedInjector32-4.0.vcxproj" on node 5 (Rebuild target(s)).
+﻿Build started 29-Oct-15 20:13:13.
+     1>Project "C:\src\EasyUI\EasyUi\Injection\ManagedInjector\ManagedInjector32-4.0.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"C:\src\EasyUI\EasyUi\\Intermediate\x86\ManagedInjector32-4.0\Debug\ManagedInjector32-4.0.pch" /Fo"C:\src\EasyUI\EasyUi\\Intermediate\x86\ManagedInjector32-4.0\Debug\\" /Fd"C:\src\EasyUI\EasyUi\\Intermediate\x86\ManagedInjector32-4.0\Debug\vc140.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Stdafx.cpp
          Stdafx.cpp
@@ -22,4 +22,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:11.02
+Time Elapsed 00:00:12.20

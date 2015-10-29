@@ -17,7 +17,7 @@ namespace Loader
             Injector.Launch(proc.MainWindowHandle, typeof(Bootstrapper.Loader).Assembly.Location, typeof(Bootstrapper.Loader).FullName, "Inject");
             Console.WriteLine("Injection completed");
 
-            var g = Find<ScrollViewer>.ByAutomationId("");
+            //var g = Find<ScrollViewer>.ByAutomationId("");
         }
     }
 }

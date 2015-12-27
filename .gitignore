@@ -82,6 +82,7 @@ ipch/
 *.cachefile
 
 # Visual Studio profiler
+*.sdf
 *.psess
 *.vsp
 *.vspx
@@ -201,3 +202,4 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+*.suo

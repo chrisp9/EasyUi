@@ -33,6 +33,13 @@ bld/
 *.VisualState.xml
 TestResult.xml
 
+*.dll
+*.tlog
+*.log
+*.sdf
+*.cache
+*.VC.opendb
+
 # Build Results of an ATL Project
 [Dd]ebugPS/
 [Rr]eleasePS/

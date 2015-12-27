@@ -1,4 +1,0 @@
-C:\src\EasyUI\EasyUi\Bootstrapper\bin\Debug\Bootstrapper.dll
-C:\src\EasyUI\EasyUi\Bootstrapper\bin\Debug\Bootstrapper.pdb
-C:\src\EasyUI\EasyUi\Bootstrapper\obj\Debug\Bootstrapper.dll
-C:\src\EasyUI\EasyUi\Bootstrapper\obj\Debug\Bootstrapper.pdb

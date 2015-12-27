@@ -1,6 +1,4 @@
-﻿using System.Threading;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 namespace Bootstrapper
 {
@@ -8,14 +6,11 @@ namespace Bootstrapper
     {
         public static void Inject()
         {
+            ExternalAssemblyRepository.Initialize();
+            AssemblyResolveHook.Attach();
+
             MessageBox.Show("Hello");
-            Task.Run(() =>
-            {
-                Thread.Sleep(3000);
-                MessageBox.Show("Hello again");
-                Thread.Sleep(5000);
-                MessageBox.Show("Hello again again");
-            });
+            Servicehoster.Host();
         }
     }
 }

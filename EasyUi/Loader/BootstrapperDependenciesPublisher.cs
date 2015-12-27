@@ -1,20 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Loader
 {
     public class BootstrapperDependenciesPublisher
     {
-        public BootstrapperDependenciesPublisher()
-        {
-            
-        }
-
         public static void PublishBootstrapperDependencies()
         {
             var userTempDirectory = Path.GetTempPath();
@@ -23,9 +16,12 @@ namespace Loader
             if(File.Exists(bootstrapperTempFile))
                 File.Delete(bootstrapperTempFile);
 
-            var xy = AppDomain.CurrentDomain.GetAssemblies();
+            var bootstrapperAssembly = AppDomain
+                .CurrentDomain
+                .GetAssemblies()
+                .Single(x => x.FullName
+                .Contains("Bootstrapper"));
 
-            var bootstrapperAssembly = AppDomain.CurrentDomain.GetAssemblies().Single(x => x.FullName.Contains("Bootstrapper"));
             var allAssemblies = new StringBuilder();
 
             foreach (var item in bootstrapperAssembly.GetReferencedAssemblies())

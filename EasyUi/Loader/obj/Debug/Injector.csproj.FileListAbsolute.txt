@@ -1,12 +1,6 @@
-C:\src\EasyUI\EasyUi\Loader\bin\Debug\Loader.exe
-C:\src\EasyUI\EasyUi\Loader\bin\Debug\Loader.pdb
 C:\src\EasyUI\EasyUi\Loader\bin\Debug\Bootstrapper.dll
 C:\src\EasyUI\EasyUi\Loader\bin\Debug\ManagedInjector.dll
 C:\src\EasyUI\EasyUi\Loader\bin\Debug\Bootstrapper.pdb
 C:\src\EasyUI\EasyUi\Loader\bin\Debug\ManagedInjector.pdb
-C:\src\EasyUI\EasyUi\Loader\obj\Debug\Injector.csprojResolveAssemblyReference.cache
-C:\src\EasyUI\EasyUi\Loader\obj\Debug\Loader.exe
-C:\src\EasyUI\EasyUi\Loader\obj\Debug\Loader.pdb
-C:\src\EasyUI\EasyUi\Loader\bin\Debug\Loader.exe.config
 C:\src\EasyUI\EasyUi\Loader\bin\Debug\Messaging.dll
-C:\src\EasyUI\EasyUi\Loader\bin\Debug\Messaging.pdb
+C:\src\EasyUI\EasyUi\Loader\bin\Debug\Server.dll

@@ -36,10 +36,16 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -51,11 +57,16 @@
     <Compile Include="BootstrapperDependenciesPublisher.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sender.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Bootstrapper\Bootstrapper.csproj">
       <Project>{d984ad3b-c29d-4602-934a-e9a82497a776}</Project>
       <Name>Bootstrapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Client\Client.csproj">
+      <Project>{6A582EC2-17C0-41C9-9594-32DA121C18CE}</Project>
+      <Name>Client</Name>
     </ProjectReference>
     <ProjectReference Include="..\Injection\ManagedInjector\ManagedInjector.vcxproj">
       <Project>{c29817a9-3696-421d-89bd-f66681657c37}</Project>
@@ -65,9 +76,14 @@
       <Project>{dd513253-3fe5-46e8-b076-9787e4126456}</Project>
       <Name>Messaging</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Server\Server.csproj">
+      <Project>{04034F0C-F5A5-4383-B6A3-981BF21491E0}</Project>
+      <Name>Server</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

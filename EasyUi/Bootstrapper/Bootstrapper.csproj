@@ -33,6 +33,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -45,6 +46,23 @@
     <Compile Include="ExternalAssemblyRepository.cs" />
     <Compile Include="Loader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Servicehoster.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Server\Server.csproj">
+      <Project>{04034F0C-F5A5-4383-B6A3-981BF21491E0}</Project>
+      <Name>Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TreeWalker\TreeWalker.csproj">
+      <Project>{676D2A43-5F1F-42BF-A4F4-6B03A809E681}</Project>
+      <Name>TreeWalker</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CHANGES.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,6 +1,7 @@
 ﻿using System;
+using System.Runtime.Serialization;
 
-namespace Messaging
+namespace MessagingMessages
 {
     public enum FindType
     {
@@ -9,10 +10,16 @@ namespace Messaging
         ByDataContextProperty,
     }
 
+    [DataContract]
     public class FindMessage
     {
+        [DataMember]
         public Type Type { get; private set; }
+
+        [DataMember]
         public FindType FindType { get; private set; }
+
+        [DataMember]
         public string Value { get; private set; }
 
         public FindMessage(Type t, FindType findType, string value)
@@ -20,6 +27,11 @@ namespace Messaging
             Type = t;
             FindType = findType;
             Value = value;
+        }
+
+        public FindMessage()
+        {
+            
         }
     }
 }

@@ -46,7 +46,7 @@
     <Compile Include="ExternalAssemblyRepository.cs" />
     <Compile Include="Loader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Servicehoster.cs" />
+    <Compile Include="ServiceHoster.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Server\Server.csproj">

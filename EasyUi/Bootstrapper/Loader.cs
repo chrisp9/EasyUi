@@ -10,7 +10,7 @@ namespace Bootstrapper
             AssemblyResolveHook.Attach();
 
             MessageBox.Show("Hello");
-            Servicehoster.Host();
+            ServiceHoster.Host();
         }
     }
 }

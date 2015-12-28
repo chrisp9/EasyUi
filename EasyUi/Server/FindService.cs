@@ -11,7 +11,7 @@ namespace Server
         {
             MessageBox.Show("Received wcf message");
 
-            return string.Format("You entered: {0}", value);
+            return $"You entered: {value}";
         }
     }
 }

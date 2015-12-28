@@ -9,14 +9,13 @@ using Server;
 
 namespace Bootstrapper
 {
-    public class Servicehoster
+    public class ServiceHoster
     {
         private static ServiceHost _host;
 
         public static void Host()
         {
             _host = new ServiceHost(typeof (FindService), new Uri("net.pipe://localhost/easyui"));
-            // Enable metadata publishing.
 
             _host.AddServiceEndpoint(
                 typeof (IFindService),
@@ -24,17 +23,10 @@ namespace Bootstrapper
                 "FindService"
                 );
 
+            _host.Open();
 
-                // Open the ServiceHost to start listening for messages. Since
-                // no endpoints are explicitly configured, the runtime will create
-                // one endpoint per base address for each service contract implemented
-                // by the service.
-                _host.Open();
-
-                Console.WriteLine("The service is ready at {0}", "http://localhost:8080/find");
-                Console.WriteLine("Press <Enter> to stop the service.");
-
-                // Close the ServiceHost.
+            Console.WriteLine("The service is ready at {0}", "http://localhost:8080/find");
+            Console.WriteLine("Press <Enter> to stop the service.");
         }
     }
 }
